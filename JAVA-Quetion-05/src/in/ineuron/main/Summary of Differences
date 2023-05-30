@@ -1,0 +1,17 @@
+Summary of Differences:
+=======================
+
+1. Instantiation	: Abstract classes cannot be directly instantiated, 
+					while interfaces cannot be instantiated at all.
+2. Inheritance		: A class can extend only one abstract class, 
+					but it can implement multiple interfaces.
+3. Implementation	: Abstract classes can have both abstract and non-abstract methods, 
+					while interfaces can only have abstract methods (prior to Java 8).
+4. Access Modifiers	: Abstract class methods can have various access modifiers, 
+					whereas interface methods are implicitly public.
+5. Fields			: Abstract classes can have instance variables, 
+					while interfaces cannot have instance variables (prior to Java 8).
+6. Default Methods	: Interfaces can have default method implementations (since Java 8), 
+					which abstract classes cannot have.
+7. Purpose			: Abstract classes are used to provide common functionality and establish a base for derived classes, 
+					while interfaces define a contract for classes to adhere to.

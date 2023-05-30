@@ -1,0 +1,8 @@
+Key Points about Abstract Classes:
+==================================
+
+1. An abstract class is a class that cannot be instantiated.
+2. It serves as a blueprint for derived classes to provide common functionality and define abstract methods.
+3. Abstract methods are declared without implementation and must be overridden by the derived classes.
+4. Abstract classes can have both abstract and non-abstract methods.
+5. Derived classes must provide implementations for all the abstract methods inherited from the abstract class.

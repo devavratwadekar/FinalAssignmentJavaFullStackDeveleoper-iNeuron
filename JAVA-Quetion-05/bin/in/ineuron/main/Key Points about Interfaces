@@ -1,0 +1,8 @@
+Key Points about Interfaces:
+============================
+
+1. An interface defines a contract for classes to follow.
+2. It contains abstract methods that must be implemented by classes that implement the interface.
+3. Classes can implement multiple interfaces.
+4. Interfaces cannot have instance variables but can have constants.
+5. Interfaces can be used to achieve abstraction and provide a common interface for unrelated classes.
