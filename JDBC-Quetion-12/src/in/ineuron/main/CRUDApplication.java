@@ -25,6 +25,7 @@ public class CRUDApplication {
 			System.out.println("VIEW Record of employees_table");
 			// Read records
 			String selectQuery = "SELECT * FROM employees_table";
+			
 			ResultSet resultSet = statement.executeQuery(selectQuery);
 			while (resultSet.next()) {
 				int id = resultSet.getInt("eid");
